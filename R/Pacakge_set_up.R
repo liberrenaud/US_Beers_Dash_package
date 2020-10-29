@@ -62,15 +62,17 @@ pkgdown::build_site()
 # usethis::use_jenkins()
 
 # 3.0 SAMPLE DESCRIPTION FILE ----
-
-# Package: hr.churn.test
-# Title: HR Churn Workflow Tools
+# 
+# Package: us.beers.dash
+# Title: US Beers Rating Dashboard
 # Version: 0.0.0.9000
-# Authors@R: c(
-#     person("Matt", "Dancho", email = "info@business-science.io", role = c("aut", "cre")),
-#     person("Business Science", role = "cph"))
-# Description:
-#     Human Resources churn workflow analysis tools and PowerPoint Report Automation.
+# Authors@R: 
+#   person(given = "Renaud",
+#          family = "Liber",
+#          role = c("aut", "cre"),
+#          email = "liberrenaud@gmail.com",
+#          comment = c(ORCID = "YOUR-ORCID-ID"))
+# Description: Define some functions to visualize beer rating in the us
 # License: MIT + file LICENSE
 # Imports:
 #     tidyquant,

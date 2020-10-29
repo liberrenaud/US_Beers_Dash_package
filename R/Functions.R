@@ -2,7 +2,6 @@
 library(tidytuesdayR)
 library(tidyverse)
 library(janitor)
-library(sf)
 library(plotly)
 library(reactable)
 
@@ -88,4 +87,4 @@ Beers_table <- function(data=prepped_beer){
     reactable(groupBy = c("location","brewery"))
 }
 
-install.packages(Rtools)
+top_10_brewery()
